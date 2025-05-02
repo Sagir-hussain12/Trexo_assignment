@@ -24,10 +24,6 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 16px;
   border: 1px solid #e1e1e1;
-  height: 300px;
-  overflow-y: auto; 
-  display: flex;
-  flex-direction: column;
 }
 
 .user-name {
@@ -75,47 +71,6 @@
   font-size: 20px;
   font-weight: 600;
   color: #e74c3c;
-}
-
-.user-list-container {
-  padding: 0 20px;
-}
-
-.slick-track {
-  display: flex !important;
-}
-
-.slick-slide {
-  height: inherit !important;
-  display: flex !important;
-}
-
-.slick-slide > div {
-  width: 100%;
-  display: flex;
-}
-
-.user-slide {
-  padding: 0 10px;
-  height: 340px; 
-  display: flex;
-}
-
-.slick-dots li button:before {
-  color: #2c3e50;
-  font-size: 10px;
-}
-
-.slick-dots li.slick-active button:before {
-  color: #2c3e50;
-}
-
-.slick-prev:before, .slick-next:before {
-  color: #2c3e50;
-}
-
-.slick-slider {
-  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
